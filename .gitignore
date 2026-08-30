@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Data & checkpoints (see Baidu Netdisk in README)
+data/
+model/
+logs/
+*.zip
+*.pth
+*.mp4
+*.avi
+
+# Downloaded weights (see scripts/setup_hubert.sh and SyncTalk docs)
+data_utils/facebook/
+data_utils/face_parsing/79999_iter.pth
+data_utils/face_tracking/3DMM/01_MorphableModel.mat
+data_utils/face_tracking/3DMM/3DMM_info.npy
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
