@@ -22,6 +22,12 @@ data_utils/face_parsing/79999_iter.pth
 data_utils/face_tracking/3DMM/01_MorphableModel.mat
 data_utils/face_tracking/3DMM/3DMM_info.npy
 
+# CUDA extensions (install locally: pip install ./freqencoder etc.)
+freqencoder/
+gridencoder/
+raymarching/
+shencoder/
+
 # IDE / OS
 .vscode/
 .idea/
