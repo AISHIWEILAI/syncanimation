@@ -1,9 +1,14 @@
-﻿# SyncAnimation: A Real-Time End-to-End Framework for Audio-Driven Human Pose and Talking Head Animation
+﻿# SyncAnimation: A Real-Time End-to-End Framework for Audio-Driven Human Pose and Talking Head Animation [IJCAI 2025]
 
-![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)  
-[Project Page](https://aishiweilai.github.io/syncanimation.github.io/) | [Paper (arXiv)](https://arxiv.org/abs/2501.14646)
 
- **Official repository of SyncAnimation. The paper has been accepted to IJCAI 2025.**
+<p align='center'>
+  <b>
+    <a href="https://aishiweilai.github.io/syncanimation.github.io/">Project Page</a>
+    | 
+    <a href="https://arxiv.org/abs/2501.14646">Paper (arXiv)</a>
+  </b>
+</p> 
+
  ![SyncAnimation Demo](assets/image/pipline.png)
  
 Generating talking avatar driven by audio remains a significant challenge. Existing methods typically require high computational costs and often lack sufficient facial detail and realism, making them unsuitable for applications that demand high real-time performance and visual quality. Additionally, while some methods can synchronize lip movement, they still face issues with consistency between facial expressions and upper body movement, particularly during silent periods. In this paper, we introduce SyncAnimation, the first NeRF-based method that achieves audio-driven, stable, and real-time generation of speaking avatar by combining generalized audio-to-pose matching and audio-to-expression synchronization. By integrating AudioPose Syncer and AudioEmotion Syncer, SyncAnimation achieves high-precision poses and expression generation, progressively producing audio-synchronized upper body, head, and lip shapes. Furthermore, the High-Synchronization Human Renderer ensures seamless integration of the head and upper body, and achieves audio-sync lip.
