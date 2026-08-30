@@ -16,9 +16,9 @@ Generating talking avatar driven by audio remains a significant challenge. Exist
 
 Most existing audio-driven talking head synthesis methods focus only on the facial region, pasting other parts like the torso from the original image, which leads to audio inconsistency between facial movements, lips, and body motion. **SyncAnimation** addresses this issue by ensuring:
 
-- **Audio-Body Consistency**
-- **Audio-Face Consistency**
-- **Audio-Lips Consistency**
+- Audio-Body Consistency
+- Audio-Face Consistency
+- Audio-Lips Consistency
 
 ![SyncAnimation Demo](assets/image/objectives.png)
 
@@ -126,7 +126,7 @@ For `aud_Xhu.npy` (256-d), please refer to the [official FaceXHuBERT repository]
 After preprocessing, training reads from `data/May/` and saves to `model/May/`:
 
 ```bash
-bash scripts/train.sh May              # torso 鈫?face 鈫?infer 鈫?lips 鈫?infer
+bash scripts/train.sh May              # torso, face, infer, lips and infer
 bash scripts/train.sh May torso        # torso only, 150k
 bash scripts/train.sh May face         # face only, 120k
 bash scripts/train.sh May lips         # lips only, 160k
@@ -153,7 +153,7 @@ python audio_main.py \
     --torso --special --bs_au45
 ```
 
-We provide the preprocessed **May** data and trained **May** results on [Baidu Netdisk](https://pan.baidu.com/s/1a-OqqPpc0_WBZ0zm-t-bgg) (code: `0408`).
+We provide the preprocessed **May** data and trained results on [Baidu Netdisk](https://pan.baidu.com/s/1a-OqqPpc0_WBZ0zm-t-bgg) (code: `0408`).
 
 ---
 
@@ -187,11 +187,11 @@ Please cite the following paper if you use this method, model, or conduct deriva
 
 This project is built upon or inspired by the following open-source projects:
 
-- SyncTalk
-- ER-NeRF
-- GeneFace
-- AD-NeRF
-- Deep3DFaceRecon_pytorch
+- [SyncTalk](https://github.com/ZiqiaoPeng/SyncTalk)
+- [ER-NeRF](https://github.com/Fictionarry/ER-NeRF)
+- [GeneFace](https://github.com/yerfor/GeneFace)
+- [AD-NeRF](https://github.com/YudongGuo/AD-NeRF)
+- [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch)
 
 We sincerely thank the authors of these projects for their contributions to the open-source community.
 
