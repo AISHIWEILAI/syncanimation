@@ -3,16 +3,16 @@
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)  
 [GitHub](https://github.com/AISHIWEILAI/syncanimation) | [Paper (arXiv)](https://arxiv.org/abs/2501.14646)
 
-馃摙 **Official repository of SyncAnimation. The paper has been accepted to IJCAI 2025.**
+ **Official repository of SyncAnimation. The paper has been accepted to IJCAI 2025.**
 
 ![SyncAnimation Demo](assets/image/pipline.png)
 
-鈥淕enerating talking avatar driven by audio remains a significant challenge. Existing methods typically require high computational costs and often lack sufficient facial detail and realism, making them unsuitable for applications that demand high real-time performance and visual quality. Additionally, while some methods can synchronize lip movement, they still face issues with consistency between facial expressions and upper body movement, particularly during silent periods. In this paper, we introduce SyncAnimation, the first NeRF-based method that achieves audio-driven, stable, and real-time generation of speaking avatar by combining generalized audio-to-pose matching and audio-to-expression synchronization. By integrating AudioPose Syncer and AudioEmotion Syncer, SyncAnimation achieves high-precision poses and expression generation, progressively producing audio-synchronized upper body, head, and lip shapes. Furthermore, the High-Synchronization Human Renderer ensures seamless integration of the head and upper body, and achieves audio-sync lip.鈥?
+enerating talking avatar driven by audio remains a significant challenge. Existing methods typically require high computational costs and often lack sufficient facial detail and realism, making them unsuitable for applications that demand high real-time performance and visual quality. Additionally, while some methods can synchronize lip movement, they still face issues with consistency between facial expressions and upper body movement, particularly during silent periods. In this paper, we introduce SyncAnimation, the first NeRF-based method that achieves audio-driven, stable, and real-time generation of speaking avatar by combining generalized audio-to-pose matching and audio-to-expression synchronization. By integrating AudioPose Syncer and AudioEmotion Syncer, SyncAnimation achieves high-precision poses and expression generation, progressively producing audio-synchronized upper body, head, and lip shapes. Furthermore, the High-Synchronization Human Renderer ensures seamless integration of the head and upper body, and achieves audio-sync lip.鈥?
 ---
 
 
 
-## 馃 Introduction
+##  Introduction
 
 Most existing audio-driven talking head synthesis methods focus only on the facial region, pasting other parts like the torso from the original image, which leads to audio inconsistency between facial movements, lips, and body motion. **SyncAnimation** addresses this issue by ensuring:
 
@@ -26,7 +26,7 @@ Most existing audio-driven talking head synthesis methods focus only on the faci
 
 
 
-## 馃洜 Installation & Dependencies
+##  Installation & Dependencies
 
 
 
@@ -72,7 +72,7 @@ bash scripts/setup_hubert.sh
 
 
 
-## 馃摝 Usage
+##  Usage
 
 All helper scripts live under `scripts/` and should be run from the project root. Below we use `May` as an example subject ID; replace it with your own ID for other videos.
 
@@ -159,7 +159,7 @@ We provide the preprocessed **May** data and trained **May** results on [Baidu N
 
 
 
-## 馃摑 Citation
+##  Citation
 
 Please cite the following paper if you use this method, model, or conduct derivative research based on this project:
 
@@ -183,7 +183,7 @@ Please cite the following paper if you use this method, model, or conduct deriva
 
 
 
-## 馃檹 Acknowledgements
+##  Acknowledgements
 
 This project is built upon or inspired by the following open-source projects:
 
@@ -199,7 +199,7 @@ We sincerely thank the authors of these projects for their contributions to the 
 
 
 
-## 鈿狅笍 Disclaimer
+##  Disclaimer
 
 By using this project, you agree to comply with all applicable laws and regulations.
 You must not use it to generate or disseminate harmful content.
