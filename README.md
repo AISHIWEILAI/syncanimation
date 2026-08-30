@@ -1,7 +1,7 @@
 ﻿# SyncAnimation: A Real-Time End-to-End Framework for Audio-Driven Human Pose and Talking Head Animation
 
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)  
-[GitHub](https://github.com/AISHIWEILAI/syncanimation) | [Paper (arXiv)](https://arxiv.org/abs/2501.14646)
+[Project Page](https://aishiweilai.github.io/syncanimation.github.io/) | [Paper (arXiv)](https://arxiv.org/abs/2501.14646)
 
  ** Official repository of SyncAnimation. The paper has been accepted to IJCAI 2025.**
  ![SyncAnimation Demo](assets/image/pipline.png)
